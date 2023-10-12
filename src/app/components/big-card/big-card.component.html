@@ -1,16 +1,9 @@
 <div class="container__big-card">
   <div class="big-card__img">
-    <img
-      src="https://www.zup.com.br/wp-content/uploads/2021/03/5e32dc5538c14b0d4b28f87f_imagens-angular3-1024x677.png"
-      alt=""
-      width="100%"
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" width="100%" srcset="" />
   </div>
-  <div class="big-card__title">Saiu a nova versão do Angular</div>
+  <div class="big-card__title">{{ cardTitle }}</div>
   <div class="big-card__description">
-    Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu
-    tomo, mas ninguém vê os tombis que eu levo! Interessantiss quisso pudia ce
-    receita de bolis, mais bolis eu num gostis.
+    {{ cardDesctiption }}
   </div>
 </div>
