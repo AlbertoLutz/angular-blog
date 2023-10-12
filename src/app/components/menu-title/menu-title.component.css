@@ -4,8 +4,13 @@
 
 .container__menu-title {
     margin-top: 15px;
-    margin-bottom: 15px;
     font-size: 135px;
     font-family: 'segoe UI';
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.container__menu-title>hr {
+    margin-bottom: 0;
 }
