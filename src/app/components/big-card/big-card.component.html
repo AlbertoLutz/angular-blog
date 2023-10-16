@@ -1,9 +1,24 @@
 <div class="container__big-card">
-  <div class="big-card__img">
-    <img src="{{ photoCover }}" alt="" width="100%" srcset="" />
+
+  <div class="big-card__photo">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
   </div>
-  <div class="big-card__title">{{ cardTitle }}</div>
+
+  <div class="big-card__title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+  </div>
+
   <div class="big-card__description">
-    {{ cardDesctiption }}
+    <p>
+      <a [routerLink]="['content', Id]">
+          {{ cardDescription }}
+      </a>
+    </p>
   </div>
+
 </div>

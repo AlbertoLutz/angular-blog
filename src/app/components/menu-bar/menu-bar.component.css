@@ -1,12 +1,12 @@
-.container__menu-bar>ul {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    margin: 0 auto;
-    list-style: none;
-    font-size: 1.2rem;
+
+
+.container__menu-bar > ul{
+  display: flex;
+  flex-direction: row;
 }
 
-.container__menu-bar ul li span {
-    width: 20px;
+.container__menu-bar > ul > li{
+  margin-right: 20px;
+  list-style: none;
 }
+
